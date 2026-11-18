@@ -9,6 +9,8 @@ import type { IApiItemBaseWithoutPrivate } from './IApiItemBase';
 
 export interface IApiLayout extends IApiItemBaseWithoutPrivate {
     FolderName: string | null;
+    Definition: string | null;
     IsDefault: boolean | null;
     IsSystem: boolean | null;
+    IsOnline: boolean | null;
 }
